@@ -1,0 +1,166 @@
+.nav {
+    /* 切除行高多出的2px对下面盒子文字的影响 */
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    /* 行高大于高47，文字偏下一点点 */
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e995';
+}
+
+
+
+/* 手机模块 */
+.sk_cintainer .sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+
+.sk_cintainer .sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_cintainer .sk_bd ul li:nth-child(4n) {
+    margin: 0;
+}
+
+.images {
+    height: 277px;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+.sk_cintainer .sk_bd ul li p {
+    padding: 0 14px;
+    margin-bottom: 16px;
+}
+
+.sk_cintainer .sk_bd ul li p a {
+    font-size: 14px;
+}
+
+.peace {
+    height: 30px;
+    padding: 0 14px;
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 14px;
+}
+
+.peace::after {
+    content: '¥6988';
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+
+.jingdu {
+    height: 12px;
+    padding: 0 14px;
+    margin-bottom: 16px;
+}
+
+.jingdu span {
+    display: inline-block;
+    height: 12px;
+    color: red;
+}
+
+.jingdu .jidu {
+    width: 133px;
+    height: 12px;
+    border-radius: 6px;
+    border: 1px solid red;
+    margin: 0 4px;
+}
+
+.jingdu .jidu::before {
+    content: '';
+    display: block;
+    width: 87%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: red;
+    transition: all 0.5s;
+}
+
+.jingdu .jidu:hover::before {
+    width: 100%;
+}
+
+.jingdu .prev::before {
+    content: '已售';
+    color: gray;
+}
+
+.jingdu .last::before {
+    content: '剩余';
+    color: gray;
+}
+
+.jingdu .last::after {
+    content: '件';
+    color: gray;
+}
+
+
+.sk_cintainer .sk_bd ul li .qg a {
+    display: block;
+    height: 50px;
+    background-color: #b1191a;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 6px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

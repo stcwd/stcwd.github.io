@@ -1,0 +1,163 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    padding: 0 11px;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+
+.registerarea h3 .login {
+    float: right;
+
+}
+
+.registerarea h3 .login a {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.registerarea h3 .login a::after {
+    content: '登陆';
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .error {
+    color: #c81523;
+}
+
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/错误图标.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.reg_form ul li .success {
+    color: green;
+}
+
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+    margin-right: 3px;
+}
+
+.safe {
+    padding-left: 168px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 85px;
+}
+
+/* 尾部模块 */
+.mop_copyright {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.mop_copyright .links {
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.mop_copyright .copyright {
+    line-height: 20px;
+}
+
+.mop_copyright .links ul li {
+    float: left;
+    padding: 0 14px;
+}
+
+.mop_copyright .links ul li {
+    border-right: 1px solid #666;
+}
+
+.mop_copyright .links ul li:last-child {
+    border: 0;
+}
